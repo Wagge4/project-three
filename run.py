@@ -1,6 +1,7 @@
 # Imports the random module to make the game work.
 import random
 
-def guess_game(x):
-    num = random.randint(1, x)
+number = input("Kindly type a number for the top range: ")
 
+if number.isdigit():
+    print("Let's play!")
