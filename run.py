@@ -37,3 +37,8 @@ while True:
         print("Your guess is too low. Try again and go a little higher!\n")
     else:
         print("Your guess is too high. Try again and go a little lower!\n")
+
+if attempts == 1:
+    print("It took you 1 attempt to guess the right number, great job!")
+else:
+    print(f"It took you", attempts, "attempts to guess the right number, great job!")
