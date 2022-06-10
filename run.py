@@ -34,11 +34,12 @@ while True:
         # This breaks the loop as the user has already won the game.
         break
     elif guess_user < guess_number:
-        print("Your guess is too low. Try again and go a little higher!\n")
+        print("\nYour guess is too low. Try again and go a little higher!")
     else:
-        print("Your guess is too high. Try again and go a little lower!\n")
+        print("\nYour guess is too high. Try again and go a little lower!")
 
+# This prevents the issue of printing out "Completed in 1 guessES", to make the english correct,
 if attempts == 1:
     print("It took you 1 attempt to guess the right number, great job!")
 else:
-    print(f"It took you", attempts, "attempts to guess the right number, great job!")
+    print("It took you", attempts, "attempts to guess the right number, great job!")
