@@ -1,31 +1,30 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+The project I've made here is a guessing game for a random number that the
+computer secretly chooses. The players chooses the range he wants to play at,
+going between 1-x. This basically means the difficulty of the game, the higher
+range you choose the harder the game will become.        
+After choosing the range you will be able to guess the secret number, and the
+terminal will print out whether the number is correct or not. If it is wrong 
+you will be given tips on whether the number you guessed is too low or too high
+compared to the secret number chosen by the computer.         
+After guessing the correct number you will be given statistics on how many tries
+it took you to guess the secret number.          
 
-Welcome Wagge4,
+***FEATURES***           
+The game is very simple to understand as it is text based. The first input you have to do is where you choose the upper range for the game, and you do so by typing in the number you want as the upper range.        
+After this you will be able to type in your guess of the secret number.        
 
-This is the Code Institute student template for deploying your third portfolio project, the Python command-line project. The last update to this file was: **August 17, 2021**
+***TESTING***        
+There was a lot of testing being done during my work with the project. I do the testing during my work with the code, and not only after I've finished to solve potential bugs as they appear, instead of fix a whole lot of bugs at once after the code is already written.      
+My main way of testing is to run the program after I've written some new code, to make sure that I don't break anything and that the written code works as intended.       
+I also read the problem warnings in the terminal which might give me a good hint if I've made a mistake somewhere in my code.         
 
-## Reminders
+***DEPLOYMENT***
+     
 
-* Your code must be placed in the `run.py` file
-* Your dependencies must be placed in the `requirements.txt` file
-* Do not edit any of the other files or your code may not deploy properly
-
-## Creating the Heroku app
-
-When you create the app, you will need to add two buildpacks from the _Settings_ tab. The ordering is as follows:
-
-1. `heroku/python`
-2. `heroku/nodejs`
-
-You must then create a _Config Var_ called `PORT`. Set this to `8000`
-
-If you have credentials, such as in the Love Sandwiches project, you must create another _Config Var_ called `CREDS` and paste the JSON into the value field.
-
-Connect your GitHub repository and deploy as normal.
-
-## Constraints
-
-The deployment terminal is set to 80 columns by 24 rows. That means that each line of text needs to be 80 characters or less otherwise it will be wrapped onto a second line.
-
------
-Happy coding!
+***CREDITS***        
+There's no way for coders to remember all the code of a language in their head, and for this reason it might be a good idea to have some people to speak with to make your work a whole lot easier. I have done this with my project, and I will credit the sources I've used during the development of this project:       
+- Tutorials online
+- My Slack friend Erik Olsson
+- W3Schools
+- StackOverflow
+- A relative to me who works as a developer
