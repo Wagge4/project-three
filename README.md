@@ -19,7 +19,7 @@ My main way of testing is to run the program after I've written some new code, t
 I also read the problem warnings in the terminal which might give me a good hint if I've made a mistake somewhere in my code.         
 
 ***DEPLOYMENT***
-     
+The project was deployed using the Heroky site, which helps us developers deploy backend projects, which does not work too well using only Github. 
 
 ***CREDITS***        
 There's no way for coders to remember all the code of a language in their head, and for this reason it might be a good idea to have some people to speak with to make your work a whole lot easier. I have done this with my project, and I will credit the sources I've used during the development of this project:       
